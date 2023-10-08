@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Bill Reminder App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bill Reminder</h1>
+        <form id="bill-form">
+            <input type="text" id="bill-name" placeholder="Bill Name" required>
+            <input type="date" id="due-date" class="custom-date-input" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button type="submit">Add Bill</button>
+        </form>
+        <ul id="bill-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
