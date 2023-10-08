@@ -51,7 +51,7 @@ function createNotification(billName, dueDate) {
         ) {
             const options = {
                 body: `The due date for ${billName} is today!`,
-                icon: 'icon.png', // Replace with the URL of your notification icon
+                icon: 'Reminder-icon.gif', // Replace with the URL of your notification icon
             };
             const notification = new Notification('Bill Reminder', options);
         }
